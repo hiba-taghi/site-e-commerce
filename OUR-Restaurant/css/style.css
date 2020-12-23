@@ -9,7 +9,7 @@ body {
 /** HEADER **/
 #header-nav {
   background-color: #bda9a4 ;
-  border-radius: 1px;
+  border-radius: 5px;
   border: 0;
 }
 
@@ -67,9 +67,11 @@ body {
   background-image: url('../images/logo.jpg')
   width: 50px;
   height: 50px;
-  margin: 10px 15px 10px 0;
+  margin: 10px 15px 10px 0; */
 }
 /* END HEADER */
+
+
 
 
 /*HOME PAGE*/
@@ -90,16 +92,6 @@ h3{
 }
 
 
-
-#us{
-  height: 250px;
-  margin-bottom: 15px;
-  padding: 10px;
-  /*background-color: #C0C0C0;*/
-  border-radius:9px;
-
-}
-
 h4{
 	font-family: 'Lora', serif;
     width: 100%;
@@ -114,7 +106,19 @@ p{
   font-size: 1.5em;
 }
 
-#fast-food, #drinks, #ice-cream , #home {
+
+#us{
+  height: 250px;
+ margin-bottom: 15px;
+  padding: 20px;
+  /*background-color: #C0C0C0;*/
+  border-radius:9px;
+
+}
+
+
+
+#fast-food, #drinks, #ice-cream {
   height: 250px;
   margin-bottom: 15px;
   position: relative;
@@ -122,6 +126,8 @@ p{
   overflow: hidden;
   border-radius:9px;
 }
+
+
 #fast-food:hover, #drinks:hover, #ice-cream:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
@@ -144,11 +150,9 @@ p{
 /* END HOME PAGE */
 
 
-@media (max-width:767px){
-	#collapsable-nav{
-		background-color: #35b5ac;
-	}
-	}
+
+
+
 
 
 
@@ -166,38 +170,36 @@ p{
 .panel-footer div.row {
   margin-bottom: 35px;
 }
-#hours, #address {
+#hours , #address{
   line-height: 2;
 }
-#hours > span, #address > span {
+#hours > span, #DR > span {
   font-size: 1.3em;
   font-family: 'Dancing Script', cursive;
+}
+#address{
+  height: 250px;
+  margin-bottom: 15px;
+  position: relative;
+  border: .25px solid #fff;
+  overflow: hidden;
+  border-radius:9px;
+
 }
 
 /* END FOOTER */
 
-
+@media (max-width:767px){
+  #collapsable-nav{
+    background-color: #87c9c5;
+  }
+  }
 
 
 
 @media (max-width: 767px) {
-  /* Header */
- .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-   font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-  }
+ /*header*/
+  
 
   #call-btn > a {
     font-size: 1.5em;
@@ -235,13 +237,34 @@ p{
     margin-top: 30px;
     padding: 0;
   }
-  #drinks, #ice-cream , #fast-food ,  {
+  #drinks, #ice-cream , #fast-food  {
     width: 340px;
     margin: 0 auto 15px;
   }
-
+#us{
+  margin-right:10px;
+  margin-left: 10px;
   
 }
+
+ /* Header */
+/.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+   font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+   font-size: 1em;
+    margin-right: 5px;
+}
+
 
 
 
