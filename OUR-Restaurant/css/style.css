@@ -67,7 +67,8 @@ body {
   background-image: url('../images/logo.jpg')
   width: 50px;
   height: 50px;
-  margin: 10px 15px 10px 0; */
+  margin: 10px 15px 10px 0;
+  background-position: center;
 }
 /* END HEADER */
 
@@ -103,15 +104,13 @@ h4{
 }
 p{
   font-family: 'Caveat', cursive;
-  font-size: 1.5em;
+  font-size: 1.38vw;
 }
-
 
 #us{
   height: 250px;
  margin-bottom: 15px;
   padding: 20px;
-  /*background-color: #C0C0C0;*/
   border-radius:9px;
 
 }
@@ -129,7 +128,7 @@ p{
 
 
 #fast-food:hover, #drinks:hover, #ice-cream:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 2px 5px 2px #cccccc;
 }
 
 
@@ -148,13 +147,6 @@ p{
 
 
 /* END HOME PAGE */
-
-
-
-
-
-
-
 
 
 
@@ -188,11 +180,32 @@ p{
 }
 
 /* END FOOTER */
+@media (min-width:767px) and (max-width:991px){
+   p{
+  font-family: 'Caveat', cursive;
+  font-size: 0.9em;
+}
 
+}
 @media (max-width:767px){
   #collapsable-nav{
     background-color: #87c9c5;
   }
+  p{
+  font-family: 'Caveat', cursive;
+  font-size: 1em;
+}
+
+#parts{
+  width: 80%;
+  padding-left: 35px;
+ 
+}
+#box{
+margin-left: 35px;
+margin-bottom: 35px;
+
+}
   }
 
 
@@ -238,7 +251,7 @@ p{
     padding: 0;
   }
   #drinks, #ice-cream , #fast-food  {
-    width: 340px;
+    width: 85%;
     margin: 0 auto 15px;
   }
 #us{
