@@ -12,7 +12,9 @@ body {
   border-radius: 5px;
   border: 0;
 }
-
+.navbar-brand {
+  ;
+}
 .navbar-brand h1 { /* Company name*/
   font-family: 'Lora', serif;
   color: #c88e7f;
@@ -23,6 +25,7 @@ body {
   margin-top: 0;
   margin-bottom: 10px;
   line-height: .75;
+  float:right;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -58,17 +61,18 @@ body {
   text-align: right;
   padding-bottom: 0;
 }
-#phone div { /* We Deliver */
+#phone{ /* We Deliver */
   text-align: right;
   padding-right: 15px;
 }
 
-#logo-img{
-  background-image: url('../images/logo.jpg')
-  width: 50px;
-  height: 50px;
+#logo-img div{
+  background-image: url('OUR-Restaurant/images/drinks.jpg')
+  width: 150px;
+  height: 150px;
   margin: 10px 15px 10px 0;
   background-position: center;
+
 }
 /* END HEADER */
 
@@ -109,13 +113,15 @@ p{
 
 #us{
   height: 250px;
- margin-bottom: 15px;
+ margin-bottom: 35px;
   padding: 20px;
   border-radius:9px;
 
 }
 
-
+#about-us{
+  margin-bottom: 40px;
+}
 
 #fast-food, #drinks, #ice-cream {
   height: 250px;
