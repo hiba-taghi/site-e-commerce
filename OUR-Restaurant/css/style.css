@@ -184,6 +184,12 @@ p{
   border-radius:9px;
 
 }
+#hr{
+  width:50%;
+  background-color:black;
+   border-color: black;
+   color: black;
+}
 
 /* END FOOTER */
 @media (min-width:767px) and (max-width:991px){
@@ -263,7 +269,7 @@ margin-bottom: 35px;
 #us{
   margin-right:10px;
   margin-left: 10px;
-  
+  margin-bottom:35px;
 }
 
  /* Header */
@@ -285,7 +291,4 @@ margin-bottom: 35px;
 }
 
 
-
-
-
-
+}
