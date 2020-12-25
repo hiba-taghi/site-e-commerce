@@ -13,7 +13,8 @@ body {
   border: 0;
 }
 .navbar-brand {
-  ;
+   margin:10px;
+   padding-top: 10px
 }
 .navbar-brand h1 { /* Company name*/
   font-family: 'Lora', serif;
@@ -22,10 +23,10 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
   line-height: .75;
-  float:right;
+ 
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -66,11 +67,11 @@ body {
   padding-right: 15px;
 }
 
-#logo-img div{
-  background-image: url('OUR-Restaurant/images/drinks.jpg')
+#logo-img{
+ background: url('../images/logo-l-md.png') no-repeat;
   width: 150px;
   height: 150px;
-  margin: 10px 15px 10px 0;
+ margin: 10px 15px 10px 0;
   background-position: center;
 
 }
@@ -292,3 +293,4 @@ margin-bottom: 35px;
 
 
 }
+
