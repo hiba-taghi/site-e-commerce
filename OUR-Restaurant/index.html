@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Our restaurant</title>
+    <title>Gastronimie</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -16,6 +16,8 @@
   </head>
 <body>
   <header>
+    <div class="js-animsition animsition" id="site-wrap" data-animsition-in-class="fade-in"
+    data-animsition-out-class="fade-out">
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
@@ -24,7 +26,7 @@
           </a>
 
           <div class="navbar-brand">
-            <a href="index.html"><h1>Our restaurant</h1></a>
+            <a href="index.html"><h1>Gastronimie</h1></a>
           </div>
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -37,23 +39,23 @@
         
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="visible-xs ">
+            <li class="visible-xs active ">
               <a href="index.html">
                 <span class="glyphicon glyphicon-home"></span> Home</a>
             </li>
-            <li>
+            <li class="nav-item ">
               <a href="menu.html">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
-            <li>
+            <li class="nav-item ">
               <a href="livraison.html">
                 <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> livraison</a>
             </li>
-            <li>
+            <li class="nav-item ">
               <a href="about.html">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
-            <li id="phone" class="hidden-xs">
+            <li  id="phone" class="hidden-xs activek">
               <a href="tel:+21260000">
                 <span>+21260000</span></a><div>* We Deliver</div>
             </li>
@@ -93,47 +95,58 @@
       </div>
     
     </div>
-    <p> <br>
-      <br>
-      <br>
-      <br>
-    </p>
+
 
 
     <div id="our-services" class="row">
       
       <h4 class="text-center visible-xs">Nos services</h4>
       <h4 class="hidden-xs">Nos services</h4>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="fast-food.html">
-          <div id="fast-food">
-          <img src="../OUR-Restaurant/images/fast-food.jpg"  class="img-responsive">
-          <span>Fast food.</span>
-            
+
+      <div id="box" class="col-md-4 col-sm-6 col-xs-12">
+
+          <div id="fast-food" class="col-md-12 col-sm-12 col-xs-12">
+            <a href="fast-food.html">
+              <img src="../OUR-Restaurant/images/fast-food.jpg"  class="img-responsive">
+              <span>Fast food</span>
+            </a>
+          </div>
+
+          <div class="col-md-12 col-sm-12 col-xs-12">
+           <p id="parts">  Chers clients, on vous propose un large menu de fast-food, tous les plats que vous pouvez imaginez, vous les trouverez chez-nous:  sandwichs, pizzas, poulets frits, hamburgers, tacos, cuisine japonaise, chinoise, italienne, mexicaine, orientale, viennoiseries ... .Tout ça est accompagné de diverses sauces pour satisfaire tous les goûts: sauce Blanche,Samouraï,Algérienne,Andalouse et beaucoup d'autres.</p>
         </div>
-      </a>
+
       </div>
       
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="drinks.html">
-          <div id="drinks">
+      <div id="box" class="col-md-4 col-sm-6 col-xs-12">
+
+        <div id="drinks" class="col-md-12 col-sm-12 col-xs-12">
+            <a href="drinks.html">
             <img src="../OUR-Restaurant/images/drinks.jpg"  class="img-responsive">
-            <span>Drinks</span>
-          </div>
-        </a>
+            <span>Boissons</span>
+            </a>
+         </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12">
+           <p id="parts">  Des meilleurs boissons diversifiés font aussi parti de notre menu: boissons chaudes: café crème,  cappuccino, boissons fraiches: Ice-tea, limonade, jus,Eaux Minérales,Cocktails...</p>
+        </div>
       </div>
       
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <a href="ice-cream.html">
-          <div id="ice-cream">
+      <div id="box" class="col-md-4 col-sm-12 col-xs-12 row">
+
+        <div id="ice-cream" class="col-md-12 col-sm-12 col-xs-12">
+          <a href="ice-cream.html">
             <img src="../OUR-Restaurant/images/ice-cream.jpg"  class="img-responsive">
-            <span>Ice cream</span>
-          </div>
-        </a>
-      </div>
-      
+            <span>Dessert</span>
+          </a>
+        </div>
+        
+        <div class="col-md-12 col-sm-12 col-xs-12">
+           <p id="parts">  On utilise des ingrédients de haute qualité pour vous offrir des sandwichs à la crème glacée de tous les goûts : fraises , chocolats , caramels... accompagnés de  biscuits. Une crème glacée et des  biscuits faits à la main .Des brownies délicieux et des gaufres fraîches.</p>
+        </div>
+      </div> 
     </div>
-   
+
   </div><!-- End of #main-content -->
 
   <footer class="panel-footer">
@@ -150,7 +163,7 @@
           <span>Address:</span><br>
           <a href="https://goo.gl/maps/eKmq4i2eYFf86ow56" target="_blank">
             <div id="address">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416.455772192249!2d-7.56985568784359!3d33.380302215241805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda63a875023b10b%3A0xf43944bf7d203a98!2sAcad%C3%A9mie%20internationale%20Mohammed%20VI%20de%20l&#39;aviation%20civile!5e0!3m2!1sfr!2sma!4v1608714520706!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416.455772192249!2d-7.56985568784359!3d33.380302215241805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda63a875023b10b%3A0xf43944bf7d203a98!2sAcad%C3%A9mie%20internationale%20Mohammed%20VI%20de%20l&#39;aviation%20civile!5e0!3m2!1sfr!2sma!4v1608714520706!5m2!1sfr!2sma" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
         </a>
           <hr class="visible-xs">
@@ -165,59 +178,4 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
-  <menu class="menu">
-
-  <button class="menu__item active" style="--bgColorBody: #ffb457; --bgColorItem: #ff8c00;">
-    <svg class="icon" viewBox="0 0 24 24">
-      <path d="M3.8,6.6h16.4" />
-      <path d="M20.2,12.1H3.8" />
-      <path d="M3.8,17.5h16.4" />
-    </svg>
-  </button>
-
-  <button class="menu__item" style="--bgColorBody: #ff96bd; --bgColorItem: #f54888;">
-    <svg class="icon" viewBox="0 0 24 24">
-      <path d="M6.7,4.8h10.7c0.3,0,0.6,0.2,0.7,0.5l2.8,7.3c0,0.1,0,0.2,0,0.3v5.6c0,0.4-0.4,0.8-0.8,0.8H3.8
-        C3.4,19.3,3,19,3,18.5v-5.6c0-0.1,0-0.2,0.1-0.3L6,5.3C6.1,5,6.4,4.8,6.7,4.8z" />
-      <path d="M3.4,12.9H8l1.6,2.8h4.9l1.5-2.8h4.6" />
-    </svg>
-  </button>
-
-  <button class="menu__item" style="--bgColorBody: #9999fb; --bgColorItem: #4343f5;">
-    <svg class="icon" viewBox="0 0 24 24">
-      <path d="M3.4,11.9l8.8,4.4l8.4-4.4" />
-      <path d="M3.4,16.2l8.8,4.5l8.4-4.5" />
-      <path d="M3.7,7.8l8.6-4.5l8,4.5l-8,4.3L3.7,7.8z" />
-  </button>
-
-  <button class="menu__item" style="--bgColorBody: #ffe797; --bgColorItem: #e0b115;">
-    <svg class="icon" viewBox="0 0 24 24">
-      <path d="M5.1,3.9h13.9c0.6,0,1.2,0.5,1.2,1.2v13.9c0,0.6-0.5,1.2-1.2,1.2H5.1c-0.6,0-1.2-0.5-1.2-1.2V5.1
-          C3.9,4.4,4.4,3.9,5.1,3.9z" />
-      <path d="M4.2,9.3h15.6" />
-      <path d="M9.1,9.5v10.3" />
-  </button>
-
-  <button class="menu__item" style="--bgColorBody: #cffff1; --bgColorItem:#65ddb7;">
-    <svg class="icon" viewBox="0 0 24 24">
-      <path d="M5.1,3.9h13.9c0.6,0,1.2,0.5,1.2,1.2v13.9c0,0.6-0.5,1.2-1.2,1.2H5.1c-0.6,0-1.2-0.5-1.2-1.2V5.1
-          C3.9,4.4,4.4,3.9,5.1,3.9z" />
-      <path d="M5.5,20l9.9-9.9l4.7,4.7" />
-      <path d="M10.4,8.8c0,0.9-0.7,1.6-1.6,1.6c-0.9,0-1.6-0.7-1.6-1.6C7.3,8,8,7.3,8.9,7.3C9.7,7.3,10.4,8,10.4,8.8z" />
-    </svg>
-  </button>
-
-  <div class="menu__border"></div>
-
-</menu>
-
-<div class="svg-container">
-  <svg viewBox="0 0 202.9 45.5">
-    <clipPath id="menu" clipPathUnits="objectBoundingBox" transform="scale(0.0049285362247413 0.021978021978022)">
-      <path d="M6.7,45.5c5.7,0.1,14.1-0.4,23.3-4c5.7-2.3,9.9-5,18.1-10.5c10.7-7.1,11.8-9.2,20.6-14.3c5-2.9,9.2-5.2,15.2-7
-          c7.1-2.1,13.3-2.3,17.6-2.1c4.2-0.2,10.5,0.1,17.6,2.1c6.1,1.8,10.2,4.1,15.2,7c8.8,5,9.9,7.1,20.6,14.3c8.3,5.5,12.4,8.2,18.1,10.5
-          c9.2,3.6,17.6,4.2,23.3,4H6.7z" />
-    </clipPath>
-  </svg>
-</div>
 </html>
