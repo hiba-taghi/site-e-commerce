@@ -6,9 +6,12 @@ body {
   
 }
 #auteur {
-   position: relative;
-   right: 50px; 
-   font-size: 60px
+  font-family: 'Dancing Script', cursive; 
+	font-size: 1em;
+	margin-bottom: 20px;
+  color:#000000;
+  position: relative;
+  right: 50px; 
 }
 
 /** HEADER **/
