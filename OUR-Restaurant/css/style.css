@@ -5,6 +5,11 @@ body {
   background-color: beige;
   
 }
+section {
+   position: relative;
+   right: 50px; 
+   font-size: 60px
+}
 
 /** HEADER **/
 #header-nav {
