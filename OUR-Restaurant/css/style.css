@@ -5,12 +5,7 @@ body {
   background-color: beige;
   
 }
-#auteur {
-  font-family: 'Dancing Script', cursive; 
-	font-size: 1em;
-	margin-bottom: 20px;
-  color:#000000;
-}
+
 
 /** HEADER **/
 #header-nav {
