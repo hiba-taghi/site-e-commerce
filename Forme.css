@@ -157,3 +157,9 @@ body{
         font-size: .8em;
     }
 }
+section
+{
+	position: relative;
+	right: 50px; 
+	font-size: 60px
+}
