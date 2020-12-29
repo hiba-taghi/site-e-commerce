@@ -43,6 +43,7 @@ body {
 }
 #nav-list a:hover {
   background: beige;
+border-radius: 9px;	
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -202,9 +203,9 @@ p{
 
 }
 @media (max-width:767px){
-  #collapsable-nav{
-    background-color: #87c9c5;
-  }
+#collapsable-nav{
+  background-color: #c88e7f;
+	}
   p{
   font-family: 'Caveat', cursive;
   font-size: 1em;
